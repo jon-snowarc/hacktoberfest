@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-image: url(30+\ Presentation\ Background\ Images\ for\ PowerPoint.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid{
+    height: 59vh;
+    width: 55vh;
+    background-color: rgba(255, 242, 240, 0.345);
+    border-radius: 10px;
+}
+.mid h1{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    color: rgba(255, 255, 255, 0.588);
+    filter: drop-shadow(5px 5px 5px red);
+}
+.moi{
+ display: flex;
+ flex-flow: column;
+gap: 20px;
+
+}
+.sui{
+    position: relative;
+    top: -20px;
+    left: -50px;
+    border-radius: 10px;
+    height: 16vh;
+    width: 16vh;
+    background-color: rgba(126, 90, 84, 0.351);
+}
+.sui img{
+    width: 100px;
+    height: 120px;
+}
+.sui  :hover{
+    transform: scale(1) rotate(-25deg) translateX(30px);
+    transition-delay:0.1s;
+}
+.mms img{position: relative;
+    top: -390px;
+    left: 100px;
+    width: 250px;
+    height: 290px;
+}
+.mms :hover{
+    transform: scale(1.3) rotate(-10deg) translateX(20px);
+    transition-delay:0.1s;
+    
+}
+.size{
+    position: relative;
+    top: -390px;
+    left: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.num{
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 1px solid rgb(192, 216, 192);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.num h3{
+    color: green;
+    font-weight: bolder;
+}
+.size :hover {
+   transform: translateY(-40%);
+}
+.size h2{
+    color: rgb(241, 241, 241);
+
+}
+.button{
+    position: relative;
+    top: -360px;
+    left: 130px;
+    width: 200px;
+    height: 60px;
+    border-radius: 69px;
+    border: 2px solid white;
+    font-size: 19px;
+    color: green;
+    
+   
+    
+}
+.button :hover{
+    color: brown;
+  
+
+}
