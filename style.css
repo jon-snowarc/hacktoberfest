@@ -2,15 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.cont{
-    width: 100%;
-    height: 100vh;
-    background-image: url(30+\ Presentation\ Background\ Images\ for\ PowerPoint.jpeg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .mid{
     height: 59vh;
     width: 55vh;
